@@ -15,6 +15,8 @@
 
 # Experimentos y Resultados
 
+    nvcc grafica_deconv.cu `pkg-config --cflags --libs opencv`
+    ./a.out borrosa_r.png
 ## Imagen de entrada borrosa
 ![Operacciones elementales con escalares](source/borrosa_r.png)
 
