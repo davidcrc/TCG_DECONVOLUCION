@@ -1,2 +1,20 @@
 # Topicos en Computacion Grafica 
 # Deconvolcion utilizando DFT en CUDA
+
+# Alumno: 
+    Carpio Rodiguez David
+
+# Descripcion
+    Deconvolución: dada una imagen, A, a la cual se le ha aplicado una convolución, aplicarle otra convolución (convolución inversa) para obtener la imagen original.
+
+    B = M x A  => DFT(B)= DFT(M x A) => DFT(B) = DFT(M)·DFT(A)
+    Luego: F = H·G => G = F/H
+    Siendo “/” la división, píxel a píxel.
+
+        IDFT(DFT(B)/DFT(M))
+
+# Resultados
+
+![Operacciones elementales con escalares](screenshots/op_lineales.png)
+
+![Operacciones elementales con escalares](screenshots/op_lineales.png)
