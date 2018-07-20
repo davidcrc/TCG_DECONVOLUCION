@@ -1,1 +1,2 @@
-# TCG_DECONVOLUCION
+# Topicos en Computacion Grafica 
+# Deconvolcion utilizando DFT en CUDA
