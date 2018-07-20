@@ -161,7 +161,10 @@ int main(int argc, char *argv[])
     // cout << "tam" << imgSpectrum2.size() <<  endl;
 
     // USA LA MATRIZ INVERSA PARA LA DECONVOLUCION
-    imgSpectrum2 = imgSpectrum2.inv();
+    Mat imagenDTF11(height, width , CV_64F);
+	imgSpectrum2.download(imagenDTF11);
+	imagenDTF11 = imagenDTF11.inv();
+    imgSpectrum2.upload(imagenDTF11);
     cuda::mulSpectrums(imgSpectrum,imgSpectrum2, imgSpectrum, 0);
 
     // cuda::divide(imgSpectrum, imgSpectrum2, imgSpectrum);
