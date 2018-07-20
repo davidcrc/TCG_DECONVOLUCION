@@ -13,8 +13,11 @@
 
         IDFT(DFT(B)/DFT(M))
 
-# Resultados
+# Experimentos y Resultados
 
-![Operacciones elementales con escalares](result/img.png)
+## Imagen de entrada borrosa
+![Operacciones elementales con escalares](source/borrosa_r.png)
 
-![Operacciones elementales con escalares](result/img.png)
+## Imagen de salida
+    Se muestra es espectro y la imagen con deconvolucion, solo se hizo con la imagen en escala de grises.
+![Operacciones elementales con escalares](result/listo.png)
