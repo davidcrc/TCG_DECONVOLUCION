@@ -162,7 +162,7 @@ int main(int argc, char *argv[])
 
     // USA LA MATRIZ INVERSA PARA LA DECONVOLUCION
     imgSpectrum2 = imgSpectrum2.inv();
-    cuda::mulSpectrums(imgSpectrum2,imgSpectrum , imgSpectrum, 0);
+    cuda::mulSpectrums(imgSpectrum,imgSpectrum2, imgSpectrum, 0);
 
     // cuda::divide(imgSpectrum, imgSpectrum2, imgSpectrum);
     int c = imgSpectrum.channels();

@@ -19,5 +19,5 @@
 ![Operacciones elementales con escalares](source/borrosa_r.png)
 
 ## Imagen de salida
-    Se muestra es espectro y la imagen con deconvolucion, solo se hizo con la imagen en escala de grises.
+    Se muestra el espectro y la imagen con deconvolucion, solo se hizo con la imagen en escala de grises.
 ![Operacciones elementales con escalares](result/listo.png)
