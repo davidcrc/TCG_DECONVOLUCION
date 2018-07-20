@@ -15,6 +15,6 @@
 
 # Resultados
 
-![Operacciones elementales con escalares](screenshots/op_lineales.png)
+![Operacciones elementales con escalares](result/img.png)
 
-![Operacciones elementales con escalares](screenshots/op_lineales.png)
+![Operacciones elementales con escalares](result/img.png)
